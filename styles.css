@@ -1,0 +1,46 @@
+/* for all boxes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    color: #efefef;
+    background-color: #5995da;
+    padding: 20px 0px;
+    display: flex; 
+    justify-content: center;
+}
+
+.menu {
+    /*border: 1px solid #ffffff;*/
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    /*border: 1px solid #bbbbbb;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left:20px;
+}
+
+.header-container{
+    color: #599dda;
+    background-color: #d6e9fe;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
